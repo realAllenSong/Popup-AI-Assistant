@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct PopupAIApp: App {
+    @StateObject private var accessibilityManager = AccessibilityManager()
+    
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        MenuBarExtra("PopupAI", systemImage: "brain.head.profile") {
+            SettingsView()
+                .environmentObject(accessibilityManager)
         }
+        .menuBarExtraStyle(.window)
     }
 }

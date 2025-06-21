@@ -2,7 +2,11 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSAccessibilityUsageDescription</key>
+	<string>Popup AI Assistant 需要辅助功能权限来监测您选择的文本，以便在您需要时弹出快捷操作栏。</string>
 	<key>NSAppBundlesUsageDescription</key>
-	<string>“PopupAI 需要获取您选中的文本，以便为您提供翻译、润色和摘要等 AI 服务。”</string>
+	<string>"PopupAI 需要获取您选中的文本，以便为您提供翻译、润色和摘要等 AI 服务。"</string>
 </dict>
 </plist>
